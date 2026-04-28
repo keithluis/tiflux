@@ -6,7 +6,7 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 # Set the MSI URL
-$msiUrl = ""
+$msiUrl = "https://github.com/keithluis/tiflux/raw/refs/heads/main/Cliente_teste_Ti.msi"
 
 # Destination in TEMP folder
 $dest = Join-Path $env:TEMP $([System.IO.Path]::GetFileName($msiUrl))
